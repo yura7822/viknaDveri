@@ -1,0 +1,64 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav__logo{
+    width: 220px;
+    height: 65px;
+    margin-left: 0;
+}
+.nav__menu{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: -8%;
+}
+li{
+    list-style: none;
+}
+.nav___link{
+    text-decoration: none;
+    color: #484848;
+}
+.nav__phone{
+    text-align: center;
+    margin-top: 10px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+  }
